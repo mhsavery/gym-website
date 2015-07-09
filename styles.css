@@ -3,7 +3,13 @@ body{
 }
 
 .container {
-    width: 960px;
+    width: 100%;
+}
+
+#logo{
+    margin-left: 650px;
+    position: relative;
+
 }
 
 .header {
@@ -13,15 +19,21 @@ body{
     font-weight: 300;
     font-size: 17px;
     padding: 15px;
+    height: 75px;
 }
 
 .header .menu {
-    float: right;
     list-style: none;
-    margin-top: 5px;
+    margin-top: -15px;
+}
+
+.menu{
+    width: 45%;
+    margin-left: 750px;
 }
 
 .menu > li {
+    font-size: 0.8em;
     display: inline;
     padding-left: 20px;
     padding-right: 20px;
@@ -90,6 +102,14 @@ body{
     display: inline-block;
     vertical-align: top;
     margin-top: 9px;
+}
+
+.fa-arrow-left{
+    color: black;
+}
+
+.fa-arrow-right{
+    color: black;
 }
 
 .slider-dots {
